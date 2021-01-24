@@ -129,6 +129,11 @@
   @include media-small {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   }
+
+  //*-*-*-*-*-*-*-*-*-*-- The 1300px Mark Break Point*-*-*-*-*-*-*-*-*-*-*
+  @include media-desktop {
+    grid-template-columns: repeat(auto-fit, minmax(55rem, 1fr));
+  }
 }
 
 @for $img from 1 through 9 {
